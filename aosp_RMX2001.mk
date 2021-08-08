@@ -25,7 +25,7 @@ $(call inherit-product, device/realme/RMX2001/device.mk)
 $(call inherit-product, vendor/realme/RMX2001/RMX2001-vendor.mk)
 
 # Inherit some common ppui stuff.
-$(call inherit-product, vendor/vendor_aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_RMX2001
